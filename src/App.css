@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  color: rgb(165, 165, 165);
+}
+
+body {
+  margin: 0;
+}
+
+.header h1 {
+  margin: 0;
+  padding-top: 15px;
+}
+
+.App {
+  background-color: rgb(37, 37, 65);
+  background-image: url("https://removal.ai/wp-content/uploads/2021/05/image1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.planetCard {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 12%;
+}
+
+.planetCard p {
+  font-size: 150%;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.solarSystem {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+img {
+  width: 180%;
+}
+
+img:hover {
+  width: 175%;
+}
+
+.missionsList {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.missionCard {
+  background-color: rgb(60, 60, 97);
+  border: 15px outset rgb(45, 45, 78);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 2%;
+  width: 25%;
+}
+
+.missionCard p {
+  margin: 5px 0;
+}
+
+.mission {
+  background-color: rgb(45, 45, 78);
+  border: 2px ridge rgb(60, 60, 97);
+  margin: 0;
+  margin-bottom: 10px;
+}
